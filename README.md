@@ -1,60 +1,55 @@
+# Codificación de Algoritmos con Arreglos
 
+## Introducción
+Esta actividad tiene como objetivo desarrollar habilidades prácticas en el uso de arreglos para implementar algoritmos en Python. Aborda problemas comunes como la búsqueda de valores máximos y mínimos, y la ordenación de datos usando dos algoritmos básicos: Bubble Sort y Selection Sort. Además, se creó un repositorio en GitHub para documentar y compartir el proyecto.
 
+## Problemas Abordados
+1. **Búsqueda de elementos máximo y mínimo en un arreglo**  
+   - Se implementaron funciones para encontrar el elemento mayor y menor en un arreglo de enteros, útil en problemas que requieren evaluar rápidamente el rango de valores de un conjunto de datos.
 
+2. **Ordenación de un arreglo usando algoritmos básicos**  
+   - Se utilizó Bubble Sort y Selection Sort para ordenar un arreglo de números enteros, ilustrando principios básicos de ordenación sin el uso de bibliotecas avanzadas.
 
-Codificación de Algoritmos con Arreglos
-Introducción
-Esta actividad tiene como objetivo desarrollar habilidades prácticas en el uso de matrices para implementar algoritmos en Python. Para hacer esto, resolvemos problemas comunes como encontrar elementos (valores máximos y mínimos) y ordenar datos usando dos algoritmos de clasificación básicos: clasificación por burbujas y clasificación por selección. Además, se creó un repositorio de GitHub para documentar y compartir el proyecto.
+## Algoritmos Implementados
 
-Problemas Abordados
-Se implementaron funciones para encontrar el elemento mayor y menor en un arreglo de enteros. Esto es útil en muchos problemas donde necesitamos evaluar rápidamente el rango de valores en un conjunto de datos.
-Se utilizó Bubble Sort y Selection Sort para ordenar un arreglo de números enteros. Estos algoritmos de ordenación sirven como ejemplos básicos para entender los principios de ordenación sin el uso de bibliotecas o métodos avanzados.
+### Búsqueda de Mayor y Menor
+- **Descripción**: Funciones que encuentran el valor máximo y mínimo en un arreglo de enteros.
+- **Aplicación**: Ideal para casos donde se necesita conocer el rango de valores o detectar límites de un conjunto de datos.
 
-Bubble Sort
-Ordena los elementos comparando pares adyacentes y cambiándolos si están en el orden incorrecto. Este proceso se repite hasta que el arreglo esté completamente ordenado. Es un algoritmo de ordenación de tipo O(n²), lo que significa que no es eficiente para grandes conjuntos de datos.
-Selection Sort
-Encuentra el elemento más pequeño en el arreglo y lo coloca en la primera posición. Luego, repite el proceso para el resto del arreglo. Es más eficiente que Bubble Sort en ciertos casos, aunque ambos tienen la misma complejidad en el peor de los casos: O(n²).
+### Bubble Sort
+- **Descripción**: Ordena los elementos comparando pares adyacentes y cambiándolos si están en el orden incorrecto. El proceso se repite hasta que el arreglo esté completamente ordenado.
+- **Complejidad**: Este algoritmo tiene una complejidad de \( O(n^2) \), lo que lo hace ineficiente para grandes conjuntos de datos.
 
-Conclusiones 
-Tanto los algoritmos de clasificación por burbujas como los de clasificación por selección tienen una complejidad de O (n²) en el peor de los casos, lo que los hace ineficientes para matrices grandes. Sin embargo, estos algoritmos son útiles para comprender los conceptos básicos de clasificación y procesamiento de datos pequeños. La implementación de estos algoritmos básicos le permite analizar la cantidad de comparaciones y movimientos de datos que realizan, una habilidad clave cuando se trabaja con algoritmos más avanzados.
+### Selection Sort
+- **Descripción**: Encuentra el elemento más pequeño en el arreglo y lo coloca en la primera posición, repitiendo el proceso para el resto del arreglo.
+- **Complejidad**: Similar a Bubble Sort, con una complejidad de \( O(n^2) \), pero en algunos casos puede ser más eficiente.
 
-Desafíos 
-Uno de los principales desafíos es optimizar la implementación para que el algoritmo funcione correctamente dada cualquier entrada válida. Es especialmente importante manejar casos especiales como matrices vacías o matrices con elementos duplicados.
+## Instrucciones para Ejecutar el Proyecto
+1. Clona el repositorio desde GitHub.
+2. Ejecuta el archivo `algoritmos.py` para probar los algoritmos con diferentes datos de entrada.
 
-Organización del Proyecto en GitHub
-Estructura del Repositorio
-El código está organizado en carpetas que facilitan su comprensión y mantenimiento. La carpeta Código contiene el código fuente.
-1.	README.md
-Se creó un archivo README detallado que incluye:
-o	Descripción de los problemas abordados.
-o	Instrucciones para ejecutar el código.
-o	Ejemplos de entrada y salida de los casos de prueba.
-o	Reflexiones sobre la eficiencia de los algoritmos implementados.
+## Ejemplos de Entrada y Salida
+- **Entrada**: `[34, 12, 45, 2, 18, 29]`
+- **Salida**:  
+  - **Mayor**: `45`  
+  - **Menor**: `2`  
+  - **Bubble Sort**: `[2, 12, 18, 29, 34, 45]`  
+  - **Selection Sort**: `[2, 12, 18, 29, 34, 45]`  
 
-Conclusión
-Esta actividad proporciona una base sólida para comprender el uso de matrices en Python y una introducción a los algoritmos de clasificación. Los archivos y la organización de GitHub no solo facilitan la colaboración en equipo, sino que también sirven como recursos de aprendizaje para proyectos futuros.
+## Conclusiones
+Tanto Bubble Sort como Selection Sort presentan una complejidad de \( O(n^2) \), lo cual limita su uso en grandes conjuntos de datos. No obstante, son útiles para comprender conceptos básicos de ordenación y manipulación de datos en arreglos. Implementar estos algoritmos básicos ayuda a entender el número de comparaciones y movimientos de datos, lo cual es clave al trabajar con algoritmos más avanzados.
 
+## Desafíos
+- Optimizar la implementación para manejar correctamente cualquier entrada válida, incluyendo casos especiales como arreglos vacíos o con elementos duplicados.
 
+## Organización del Proyecto en GitHub
 
+### Estructura del Repositorio
+El código está organizado en carpetas que facilitan su comprensión y mantenimiento:
+- **Código**: Contiene el código fuente de los algoritmos implementados.
 
-## Codificación de Algoritmos con Arreglos
+### README.md
+- Incluye una descripción detallada de los problemas abordados, instrucciones para ejecutar el código, ejemplos de entrada y salida, y reflexiones sobre la eficiencia de los algoritmos.
 
-### Problemas Abordados
-- Búsqueda de elementos máximo y mínimo en un arreglo.
-- Ordenación de un arreglo usando Bubble Sort y Selection Sort.
-
-### Algoritmos Implementados
-- **Búsqueda de mayor y menor**: Funciones que encuentran el valor más alto y más bajo en un arreglo.
-- **Bubble Sort**: Algoritmo de ordenación que intercambia elementos adyacentes repetidamente.
-- **Selection Sort**: Algoritmo de ordenación que selecciona el elemento más pequeño y lo coloca en su posición correcta.
-
-### Instrucciones para Ejecutar
-- Clona el repositorio y ejecuta el archivo `algoritmos.py`.
-
-### Ejemplos de Entrada y Salida
-- Entrada: `[34, 12, 45, 2, 18, 29]`
-- Salida:
-  - Mayor: `45`
-  - Menor: `2`
-  - Bubble Sort: `[2, 12, 18, 29, 34, 45]`
-  - Selection Sort: `[2, 12, 18, 29, 34, 45]`
+## Conclusión
+Esta actividad proporciona una base sólida para comprender el uso de arreglos en Python y una introducción a los algoritmos de ordenación. La organización del repositorio en GitHub facilita la colaboración y sirve como recurso de aprendizaje para proyectos futuros.
