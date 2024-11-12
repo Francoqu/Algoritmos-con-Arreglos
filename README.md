@@ -1,3 +1,7 @@
+
+
+
+
 Codificación de Algoritmos con Arreglos
 Introducción
 Esta actividad tiene como objetivo desarrollar habilidades prácticas en el uso de matrices para implementar algoritmos en Python. Para hacer esto, resolvemos problemas comunes como encontrar elementos (valores máximos y mínimos) y ordenar datos usando dos algoritmos de clasificación básicos: clasificación por burbujas y clasificación por selección. Además, se creó un repositorio de GitHub para documentar y compartir el proyecto.
